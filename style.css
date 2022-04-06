@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    /* background-color: rgb(76, 128, 56); */
+    /* background-image: url('it2.jpg');
+    opacity: 80%; */
+}
+
+h1{
+    color: rgb(12, 8, 9);
+    font-size: 3rem;
+    /* didesnis sriftas nei iprastai  */
+}
+.container::before{
+content: "";
+background-position: center ;
+background-size:cover ;
+width: auto;
+height: auto;
+background-image: url('it2.jpg');
+opacity: 60%; 
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+z-index: -1;
+}
+    
+    
